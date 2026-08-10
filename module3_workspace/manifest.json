@@ -1,0 +1,45 @@
+{
+  "contractVersion": "module3-poc-1.0",
+  "input": {
+    "evidenceSnapshots": [
+      "019fd112-0000-7000-8000-000000000002",
+      "019fcfff-0000-7000-8000-000000000001",
+      null,
+      null
+    ],
+    "wikiPages": [
+      {
+        "graphInputFile": "000-电梯年检前制动器断电与间隙测量.md",
+        "wikiPageId": "019fd112-0000-7000-8000-000000000022",
+        "wikiPageVersion": 1,
+        "title": "电梯年检前制动器断电与间隙测量",
+        "evidenceRefs": [
+          {
+            "evidenceSnapshotId": "019fd112-0000-7000-8000-000000000002",
+            "evidenceId": "019fd112-0000-7000-8000-000000000005"
+          }
+        ],
+        "links": []
+      },
+      {
+        "graphInputFile": "001-更换燃油系统初级滤清器前的停机与泄压.md",
+        "wikiPageId": "019fcfff-0000-7000-8000-000000000021",
+        "wikiPageVersion": 1,
+        "title": "更换燃油系统初级滤清器前的停机与泄压",
+        "evidenceRefs": [
+          {
+            "evidenceSnapshotId": "019fcfff-0000-7000-8000-000000000001",
+            "evidenceId": "019fcfff-0000-7000-8000-000000000004"
+          }
+        ],
+        "links": []
+      }
+    ]
+  },
+  "counts": {
+    "evidenceSnapshots": 4,
+    "evidenceUnits": 2,
+    "wikiPages": 2
+  },
+  "graphInputDir": "D:\\graphrag-main-private\\module3_workspace\\graph_input"
+}
